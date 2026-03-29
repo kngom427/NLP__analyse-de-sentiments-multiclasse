@@ -46,7 +46,7 @@ L'objectif central est **comparatif** : évaluer et analyser rigoureusement 4 ap
 | Rang | Modèle | Accuracy | F1-Macro | F1-Weighted |
 |------|--------|----------|----------|-------------|
 | 🥇 | SVM (LinearSVC) | 79.6% | 77.53% | 79.61% |
-| 🥈 | Random Fores | % | 79.6% | 77.0% |79.45%
+| 🥈 | Random Fores | 79.6%% | 77.0% | 79.45%% |
 | 🥉 | Régression Logistique | 78.2% | 76.29% | 78.05% |
 | 4️⃣ | DistilBERT (Zero-Shot) | 41.08% | 37.73% | 30.83% |
 
