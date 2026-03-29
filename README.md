@@ -6,7 +6,6 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![spaCy](https://img.shields.io/badge/spaCy-NLP-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **Comparaison de modèles NLP pour la classification de sentiments en 3 classes**  
 *du modèle classique au Transformer état de l'art*
@@ -46,10 +45,10 @@ L'objectif central est **comparatif** : évaluer et analyser rigoureusement 4 ap
 
 | Rang | Modèle | Accuracy | F1-Macro | F1-Weighted |
 |------|--------|----------|----------|-------------|
-| 🥇 | SVM (LinearSVC) | ~87% | ~85% | ~86% |
-| 🥈 | Régression Logistique | ~85% | ~83% | ~84% |
-| 🥉 | DistilBERT (Zero-Shot) | ~78% | ~72% | ~76% |
-| 4️⃣ | Random Forest | ~76% | ~73% | ~75% |
+| 🥇 | SVM (LinearSVC) | 79.6% | 77.53% | 79.61% |
+| 🥈 | Random Fores | 79.6%% | 77.0% | 79.45%% |
+| 🥉 | Régression Logistique | 78.2% | 76.29% | 78.05% |
+| 4️⃣ | DistilBERT (Zero-Shot) | 41.08% | 37.73% | 30.83% |
 
 > ⚠️ **Note :** Les scores exacts varient selon le dataset et les paramètres. Ré-exécutez le notebook pour obtenir vos résultats précis.
 
@@ -170,13 +169,8 @@ jupyter notebook notebooks/sentiment_analysis_complet.ipynb
 ```
 sentiment-analysis-nlp/
 │
-├── 📓 notebooks/
-│   └── sentiment_analysis_complet.ipynb    # Notebook principal (ce fichier)
+├── sentiment_analysis_complet.ipynb    # Notebook principal 
 │
-├── 🐍 src/
-│   ├── preprocess.py                        # Fonctions de prétraitement
-│   ├── features.py                          # Feature engineering
-│   └── models.py                            # Entraînement et évaluation
 │
 ├── 📊 results/                              # Figures et visualisations (auto-générées)
 │   ├── distribution_classes.png
@@ -192,26 +186,6 @@ sentiment-analysis-nlp/
 │
 ├── 📄 requirements.txt                     # Dépendances Python
 ├── 📄 README.md                            # Ce fichier
-└── 📄 LICENSE
-```
-
----
-
-## 📦 Dépendances
-
-```txt
-# requirements.txt
-pandas>=2.0.0
-numpy>=1.24.0
-scikit-learn>=1.3.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-wordcloud>=1.9.0
-spacy>=3.6.0
-datasets>=2.14.0
-transformers>=4.35.0
-torch>=2.0.0
-jupyter>=1.0.0
 ```
 
 ---
@@ -279,19 +253,14 @@ La métrique principale est le **F1-Score Macro**, car il traite toutes les clas
 
 ## 👤 Auteur
 
-**[Votre Prénom Nom]**  
-Étudiant·e Master 1 — Data Science  
-📧 votre.email@universite.fr  
-🔗 [LinkedIn](https://linkedin.com/in/votre-profil) · [GitHub](https://github.com/votre-username)
+**NGOM Khadim**  
+Étudiant Master 1 Informatique   
+🔗 [LinkedIn](www.linkedin.com/in/khadim-ngom-65825728b)
 
 ---
 
 ## 📄 Licence
 
-Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Projet académique — Usage éducatif uniquement.
 
----
 
-<div align="center">
-  <sub>⭐ Si ce projet vous a été utile, n'hésitez pas à laisser une étoile !</sub>
-</div>
